@@ -1,0 +1,39 @@
+:root {
+    --telu-red: #b51234;
+    --telu-red-dark: #8f0d2a;
+    --telu-red-soft: #fdebef;
+    --telu-red-border: #f4c9d2;
+    --telu-ink: #211f24;
+}
+
+[x-cloak] {
+    display: none !important;
+}
+
+.page-shell {
+    background:
+        radial-gradient(circle at 12% 8%, rgba(181, 18, 52, 0.07), transparent 34%),
+        radial-gradient(circle at 92% 90%, rgba(143, 13, 42, 0.08), transparent 40%),
+        #f7f7f8;
+}
+
+.btn-telu {
+    background-color: var(--telu-red);
+    color: #fff;
+}
+
+.btn-telu:hover {
+    background-color: var(--telu-red-dark);
+}
+
+.focus-telu:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(181, 18, 52, 0.2);
+    border-color: var(--telu-red);
+}
+
+.accent-chip {
+    background-color: var(--telu-red-soft);
+    color: var(--telu-red-dark);
+    border: 1px solid var(--telu-red-border);
+}
